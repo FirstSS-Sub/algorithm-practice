@@ -7,7 +7,7 @@ impl Solution {
            let a: Vec<String> = email.split("@").map(str::to_string).collect();
            let b: Vec<String> = a[0].split("+").map(str::to_string).collect();
            let c = b[0].replace(".", "");
-           ans.insert(format!("{}@{}", c, a[2]).to_string());
+           ans.insert(format!("{}@{}", c, a[2]));
        }
        
        ans.len() as i32
