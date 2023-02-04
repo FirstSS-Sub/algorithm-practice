@@ -5,6 +5,7 @@ mod two_sum;
 mod intersection_of_two_arrays;
 mod unique_email_addresses;
 mod first_unique_character_in_a_string;
+mod subarray_sum_equals_k;
 
 struct Solution;
 
