@@ -17,7 +17,7 @@ problem:
 .PHONY: test
 # Run tests
 test:
-	oj t -c "python3 $(id)/main.py" -d test
+	oj t -c "python3 $(id)/main.py" -d $(id)/test
 
 .PHONY: submit
 # Submit code
