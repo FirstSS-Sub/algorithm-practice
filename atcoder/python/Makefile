@@ -22,4 +22,4 @@ test:
 .PHONY: submit
 # Submit code
 submit:
-	oj s "https://atcoder.jp/contests/$(shell echo $(id) | cut -d'_' -f1)/tasks/$(id)" $(id)/main.py
+	oj s "https://atcoder.jp/contests/$(shell echo $(id) | cut -d'_' -f1)/tasks/$(id)" $(id)/main.py -l 5078
